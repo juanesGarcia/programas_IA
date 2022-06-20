@@ -29,6 +29,7 @@ plt.ylabel("magnitud de perdida")
 plt.plot(historial.history["loss"],marker=',',color='g')
 plt.show()
 
+
 print("hacer una prediccion")
 resultado=modelo.predict([100.0])
 resultado1=modelo.predict([38.0])
